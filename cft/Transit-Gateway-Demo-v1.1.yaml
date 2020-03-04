@@ -1512,9 +1512,9 @@ Resources:
               - FW1
       NetworkInterfaces:
         - NetworkInterfaceId: !Ref 'FW1UntrustNetworkInterface'
-          DeviceIndex: 1
-        - NetworkInterfaceId: !Ref 'FW1ManagementNetworkInterface'
           DeviceIndex: 0
+        - NetworkInterfaceId: !Ref 'FW1ManagementNetworkInterface'
+          DeviceIndex: 1
         - NetworkInterfaceId: !Ref 'FW1TrustNetworkInterface'
           DeviceIndex: 2
       UserData: !Base64
@@ -1554,9 +1554,9 @@ Resources:
               - FW2
       NetworkInterfaces:
         - NetworkInterfaceId: !Ref 'FW2UntrustNetworkInterface'
-          DeviceIndex: 1
-        - NetworkInterfaceId: !Ref 'FW2ManagementNetworkInterface'
           DeviceIndex: 0
+        - NetworkInterfaceId: !Ref 'FW2ManagementNetworkInterface'
+          DeviceIndex: 1
         - NetworkInterfaceId: !Ref 'FW2TrustNetworkInterface'
           DeviceIndex: 2
       UserData: !Base64
