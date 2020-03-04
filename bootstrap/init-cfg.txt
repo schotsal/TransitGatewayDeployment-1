@@ -1,3 +1,4 @@
+op-command-modes=mgmt-interface-swap
 type=dhcp-client
 ip-address=
 default-gateway=
